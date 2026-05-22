@@ -7,4 +7,4 @@ Política de privacidad de la app **Inventario Minimalista** disponible en Googl
 
 ## Contacto
 
-David Molina Najera · davidmn1982@gmail.com
+Kain-Mark · davidmn1982@gmail.com
