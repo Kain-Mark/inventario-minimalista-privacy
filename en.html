@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy — Minimalist Inventory</title>
+    <style>
+        :root {
+            --crema: #FBF8F3;
+            --crema-claro: #FFFDF9;
+            --salvia: #6B8A63;
+            --tinta: #3B3A36;
+            --tinta-tenue: #7A7770;
+            --borde: #EFE8DC;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--crema);
+            color: var(--tinta);
+            line-height: 1.65;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        header {
+            border-bottom: 1px solid var(--borde);
+            padding-bottom: 24px;
+            margin-bottom: 36px;
+        }
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9rem;
+            color: var(--tinta-tenue);
+            margin-bottom: 16px;
+        }
+        .lang-switch a {
+            color: var(--salvia);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .lang-switch a:hover { text-decoration: underline; }
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 600;
+            color: var(--tinta);
+            margin: 0 0 8px;
+            letter-spacing: -0.01em;
+        }
+        .subtitle {
+            color: var(--tinta-tenue);
+            font-size: 0.95rem;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--salvia);
+            margin: 36px 0 12px;
+            letter-spacing: -0.005em;
+        }
+        p, li { font-size: 1rem; }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 6px; }
+        a { color: var(--salvia); }
+        a:hover { color: #4F6048; }
+        strong { color: var(--tinta); font-weight: 600; }
+        .nota {
+            background: var(--crema-claro);
+            border-left: 3px solid var(--salvia);
+            padding: 14px 18px;
+            margin: 20px 0;
+            font-size: 0.95rem;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid var(--borde);
+            font-size: 0.85rem;
+            color: var(--tinta-tenue);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switch">
+            <a href="index.html">Español</a> · English
+        </div>
+
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle"><strong>Minimalist Inventory</strong> app · Last updated: May 21, 2026</p>
+        </header>
+
+        <p>
+            This policy describes how the mobile application <strong>Minimalist Inventory</strong>
+            (hereinafter, "the app") handles the information of the people who use it. The app
+            is developed and maintained by <strong>David Molina Najera</strong> as an
+            independent individual developer.
+        </p>
+
+        <div class="nota">
+            <strong>Quick summary:</strong> the app does not send or store your personal data on
+            any server. Your inventory lives only on your device. The only information that
+            leaves the device is what Google AdMob collects to show you ads, and that can be
+            controlled from your phone's settings.
+        </div>
+
+        <h2>1. Data the app collects directly</h2>
+        <p>
+            <strong>None.</strong> All the information you enter in the app — inventory items,
+            rooms, categories, notes — is stored exclusively in the local database on your device
+            (SQLite). It is not sent to any server, not synced to any cloud, and not shared with
+            third parties.
+        </p>
+        <p>
+            If you uninstall the app, all of that data is deleted with it. We do not keep backups
+            of your information: we cannot recover it for you if you lose it.
+        </p>
+
+        <h2>2. Data Google AdMob collects</h2>
+        <p>
+            The app displays ads through the <strong>Google AdMob</strong> service
+            (owned by Google LLC), integrated via the official
+            <strong>Google Mobile Ads SDK</strong>. This SDK automatically collects
+            certain information to personalize and measure those ads:
+        </p>
+        <ul>
+            <li>The device's <strong>Advertising ID</strong>.</li>
+            <li>Approximate <strong>IP address</strong> to infer your location at the city or region level.</li>
+            <li><strong>Device information</strong>: model, operating system, system language.</li>
+            <li><strong>Ad interactions</strong>: impressions, clicks, view duration.</li>
+        </ul>
+        <p>
+            We as developers <strong>do not have access to that raw data</strong>: we only see
+            aggregated metrics (how many impressions were served, etc.). The full processing is
+            governed by
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's
+            Privacy Policy</a>.
+        </p>
+
+        <h2>3. System permissions</h2>
+        <p>The app requests the following Android permissions:</p>
+        <ul>
+            <li><strong>Internet</strong> — needed only so that AdMob can download ads.</li>
+            <li><strong>Network state</strong> — so AdMob doesn't try to load ads when there is no connection.</li>
+        </ul>
+        <p>
+            The app <strong>does not request</strong> access to contacts, precise location,
+            camera, microphone, calendar, external storage, or any other sensitive permission.
+        </p>
+
+        <h2>4. Cookies and local storage</h2>
+        <p>
+            The app does not use cookies. To store your inventory and remember whether you
+            have seen the welcome screen, it uses Android's local storage (SQLite and
+            SharedPreferences). These data never leave your device.
+        </p>
+
+        <h2>5. Minors</h2>
+        <p>
+            The app is not directed to children under 13. If you become aware that a child
+            under 13 is using the app, please contact us and we will delete any related
+            information to the extent possible (note that we do not collect data directly).
+        </p>
+
+        <h2>6. Your rights (GDPR / UK GDPR)</h2>
+        <p>
+            If you reside in the European Economic Area or the United Kingdom, the General Data
+            Protection Regulation grants you the following rights over any personal data processed
+            in connection with the app:
+        </p>
+        <ul>
+            <li>Access to your data</li>
+            <li>Rectification of inaccurate data</li>
+            <li>Erasure ("right to be forgotten")</li>
+            <li>Objection to processing</li>
+            <li>Restriction of processing</li>
+            <li>Data portability</li>
+            <li>Withdraw consent at any time</li>
+        </ul>
+        <p>
+            Because the app does not collect data on our servers, most of these rights are
+            automatically exercised by uninstalling the app. For the data that AdMob collects,
+            you must exercise them through your
+            <a href="https://myaccount.google.com/" target="_blank" rel="noopener">Google account
+            settings</a>. If you prefer not to see personalized ads, you can reset your
+            Advertising ID from your Android device's settings:
+            <em>Settings → Google → Ads → Reset advertising ID / Opt out of ad personalization</em>.
+        </p>
+
+        <h2>7. California residents (CCPA)</h2>
+        <p>
+            If you reside in California, the California Consumer Privacy Act grants you the right
+            to know what data is collected about you, to request its deletion, and to opt out
+            of its "sale". We never sell personal data. For data processed by AdMob, please
+            consult Google's policy.
+        </p>
+
+        <h2>8. Changes to this policy</h2>
+        <p>
+            We may update this policy if the app's functionality changes (for example, if a
+            cloud backup feature is added in a future version). In that case, we will update
+            the "Last updated" date at the top, and, if the change is substantial, we will
+            announce it in the app description on Google Play.
+        </p>
+
+        <h2>9. Data deletion requests</h2>
+        <p>
+            As noted in section 1, the app does not collect or store your personal
+            information on any of our servers. All your inventory data lives only on
+            your device.
+        </p>
+        <ul>
+            <li>
+                <strong>Local data</strong> (items, rooms, categories, preferences):
+                completely removed when you uninstall the app. You can also clear it
+                manually from
+                <em>Android Settings → Apps → Minimalist Inventory → Storage →
+                Clear data</em>.
+            </li>
+            <li>
+                <strong>Data processed by AdMob</strong> (Advertising ID, IP, ad
+                metrics): you can request its deletion by contacting Google through
+                <a href="https://support.google.com/googleplay/android-developer/contact/dpo" target="_blank" rel="noopener">their
+                official form</a> or by resetting your Advertising ID from your
+                device's settings.
+            </li>
+            <li>
+                <strong>Direct request to the developer</strong>: if you want us to
+                confirm that no data associated with you remains under our control,
+                write to
+                <a href="mailto:davidmn1982@gmail.com?subject=Data%20deletion%20request%20-%20Minimalist%20Inventory">davidmn1982@gmail.com</a>
+                with "Data deletion request" in the subject. We will reply within
+                30 days at most.
+            </li>
+        </ul>
+
+        <h2>10. Contact</h2>
+        <p>
+            If you have questions about this policy, about your data, or about the app in general,
+            you can write to:
+        </p>
+        <p>
+            <strong>David Molina Najera</strong><br>
+            <a href="mailto:davidmn1982@gmail.com">davidmn1982@gmail.com</a>
+        </p>
+
+        <footer>
+            © 2026 David Molina Najera — Minimalist Inventory
+        </footer>
+    </div>
+</body>
+</html>
